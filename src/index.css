@@ -5,9 +5,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
+  display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* .component{
+  border: 2px dotted red;
+} */
+.north, .south {
+  display:flex;
+  width: fit-content;
+  width: 500px
+}
+.bedrooms {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background: #2d7188;
+  
+  
+}
+
+.bath{
+  width: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #728830
+  
+}
+.fullBath{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #728830;
+  height: 100px
+}
+.oven-sink{
+display: flex;
+width: 110px;
+}
+.living{
+  width: 190px;
+  background: #c9ac81;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oven{
+  background: #c94718;
+  width: 55px;
+}
+.sink{
+  background : #945614;
+  width: 55px;
+}
+.right{
+  background: #F1A73A;
+}
+.kitchen{
+  display: flex;
+  height:245px;
+  justify-content: center;
+  align-items: center;
 }
